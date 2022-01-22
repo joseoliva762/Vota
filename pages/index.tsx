@@ -137,7 +137,7 @@ const Home: NextPage = () => {
             <Pill title='Render'       image='icons/Render.webp' />
             <Pill title='AWS'          svg={<SVG.AWS/>} />
             <Pill title='Azure'        svg={<SVG.Azure/>} />
-            <Pill title='Google Cloud' svg={<SVG.GoogleCloud/>} />
+            <Pill title='Google Cloud' />
           </ul>
         </div>
       </section>
