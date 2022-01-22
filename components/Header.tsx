@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { NavUserOutlet } from "components/NavUserOutlet";
-import logo from 'public/icons/logo.svg';
+import logo from 'public/icons/whiteFlatLogo.svg';
 
 export default function Header () {
     return (
