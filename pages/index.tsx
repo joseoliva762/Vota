@@ -1,25 +1,28 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+
 import Header from 'components/Header';
 import SectionTitle from 'components/SectionTitle';
 import { Pill } from 'components/Pill';
 import * as SVG from "components/SVGIcons";
-
+import { useTranslations } from 'Hooks/useTranslation';
 
 const Home: NextPage = () => {
+  const i18n = useTranslations();
+
   return (
     <>
       <Head>
-        <title>Vota.Dev</title>
+        <title>Vota.app - {i18n.SEO_TITLE}</title>
         <meta name="theme-color" content="#f7df1e" />
       </Head>
       <Header />
       <section className='mt-16 w-full max-w-4xl md:mt-28'>
         <h1 className='font-bold text-center text-black text-6xl md:text-8xl cursor-default'>
-          Vota los mejores del desarrollo web
+          {i18n.SEO_TITLE}
         </h1>
         <p className='max-w-lg mx-auto mt-10 text-lg text-center text-black opacity-80 font-semibold cursor-default'>
-          Decide qué stack, tecnologías y frameworks han sido los mejores del año ¡Cada voto cuenta!
+          {i18n.SEO_SUBTITLE}
         </p>
         <div className='bg-white max-w-4xl p-10 mx-auto my-20 rounded-none border-t-2 border-b-2 border-black md:border-2 md:rounded-lg'>
           <SectionTitle>Mejor biblioteca UI</SectionTitle>
