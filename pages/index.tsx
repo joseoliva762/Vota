@@ -1,16 +1,9 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Header from 'components/Header';
+import SectionTitle from 'components/SectionTitle';
 import { Pill } from 'components/Pill';
 import * as SVG from "components/SVGIcons";
-
-interface SectionTitleProps {
-  children?: string
-}
-
-const SectionTitle = ({children}: SectionTitleProps) => (
-  <h2 className='mb-6 text-3xl font-bold text-center cursor-default md:text-4xl'>{children}</h2>
-);
 
 
 const Home: NextPage = () => {
