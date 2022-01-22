@@ -11,6 +11,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Vota.Dev</title>
+        <meta name="theme-color" content="#f7df1e" />
       </Head>
       <Header />
       <section className='mt-16 w-full max-w-4xl md:mt-28'>
