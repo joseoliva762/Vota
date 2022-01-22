@@ -235,7 +235,7 @@ export const Svelte = (svgprops?: svgProps) => (
   </svg>
 )
 export const Vote = (svgprops?: svgProps) => (
-  <svg {...svgprops} viewBox="0 0 64 64" enable-background="new 0 0 64 64">
+  <svg {...svgprops} viewBox="0 0 64 64" enableBackground="new 0 0 64 64">
     <path fill="#ed4c5c" d="M61.3 54.7 10.3 64 7.9 20.7 64 18.3z" />
     <path fill="#c94747" d="M10.3 64 2.6 49.4 0 15.5 7.9 20.7z" />
     <path fill="#881a0e" d="M64 18.3 7.9 20.7 0 15.5 42.1 14.4z" />
@@ -486,8 +486,8 @@ export const Parcel = (svgprops?: svgProps) => (
         y2="50.4169361%"
         id="linearGradient-1"
       >
-        <stop stop-color="#000000" offset="0%"></stop>
-        <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        <stop stopColor="#000000" offset="0%"></stop>
+        <stop stopColor="#000000" stopOpacity="0" offset="100%"></stop>
       </linearGradient>
       <linearGradient
         x1="50.1473165%"
@@ -496,8 +496,8 @@ export const Parcel = (svgprops?: svgProps) => (
         y2="50.1421881%"
         id="linearGradient-2"
       >
-        <stop stop-color="#000000" offset="0%"></stop>
-        <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        <stop stopColor="#000000" offset="0%"></stop>
+        <stop stopColor="#000000" stopOpacity="0" offset="100%"></stop>
       </linearGradient>
       <linearGradient
         x1="81.502757%"
@@ -506,10 +506,10 @@ export const Parcel = (svgprops?: svgProps) => (
         y2="50.2023826%"
         id="linearGradient-3"
       >
-        <stop stop-color="#C37A44" offset="0%"></stop>
-        <stop stop-color="#BB713D" offset="44.42%"></stop>
-        <stop stop-color="#A05728" offset="64.06%"></stop>
-        <stop stop-color="#964E23" offset="100%"></stop>
+        <stop stopColor="#C37A44" offset="0%"></stop>
+        <stop stopColor="#BB713D" offset="44.42%"></stop>
+        <stop stopColor="#A05728" offset="64.06%"></stop>
+        <stop stopColor="#964E23" offset="100%"></stop>
       </linearGradient>
       <linearGradient
         x1="63.4752804%"
@@ -518,8 +518,8 @@ export const Parcel = (svgprops?: svgProps) => (
         y2="43.4141742%"
         id="linearGradient-4"
       >
-        <stop stop-color="#E9B880" offset="0%"></stop>
-        <stop stop-color="#E4AF76" offset="100%"></stop>
+        <stop stopColor="#E9B880" offset="0%"></stop>
+        <stop stopColor="#E4AF76" offset="100%"></stop>
       </linearGradient>
       <linearGradient
         x1="50.8943679%"
@@ -528,13 +528,13 @@ export const Parcel = (svgprops?: svgProps) => (
         y2="49.2735752%"
         id="linearGradient-5"
       >
-        <stop stop-color="#C37A45" stop-opacity="0" offset="0%"></stop>
-        <stop stop-color="#C37A45" offset="13.34%"></stop>
-        <stop stop-color="#D08D55" offset="29.45%"></stop>
-        <stop stop-color="#DEA167" offset="50.21%"></stop>
-        <stop stop-color="#E8AF73" offset="69.66%"></stop>
-        <stop stop-color="#ECB477" offset="86.31%"></stop>
-        <stop stop-color="#ECB477" stop-opacity="0" offset="100%"></stop>
+        <stop stopColor="#C37A45" stopOpacity="0" offset="0%"></stop>
+        <stop stopColor="#C37A45" offset="13.34%"></stop>
+        <stop stopColor="#D08D55" offset="29.45%"></stop>
+        <stop stopColor="#DEA167" offset="50.21%"></stop>
+        <stop stopColor="#E8AF73" offset="69.66%"></stop>
+        <stop stopColor="#ECB477" offset="86.31%"></stop>
+        <stop stopColor="#ECB477" stopOpacity="0" offset="100%"></stop>
       </linearGradient>
       <linearGradient
         x1="47.4226244%"
@@ -543,9 +543,9 @@ export const Parcel = (svgprops?: svgProps) => (
         y2="77.4928036%"
         id="linearGradient-6"
       >
-        <stop stop-color="#AF6938" offset="8.81%"></stop>
-        <stop stop-color="#9A5227" offset="48.29%"></stop>
-        <stop stop-color="#8D4520" offset="77.92%"></stop>
+        <stop stopColor="#AF6938" offset="8.81%"></stop>
+        <stop stopColor="#9A5227" offset="48.29%"></stop>
+        <stop stopColor="#8D4520" offset="77.92%"></stop>
       </linearGradient>
       <linearGradient
         x1="41.1470316%"
@@ -554,8 +554,8 @@ export const Parcel = (svgprops?: svgProps) => (
         y2="44.9502686%"
         id="linearGradient-7"
       >
-        <stop stop-color="#E4AF76" offset="3.27%"></stop>
-        <stop stop-color="#E9B880" offset="100%"></stop>
+        <stop stopColor="#E4AF76" offset="3.27%"></stop>
+        <stop stopColor="#E9B880" offset="100%"></stop>
       </linearGradient>
       <linearGradient
         x1="49.6244666%"
@@ -564,12 +564,12 @@ export const Parcel = (svgprops?: svgProps) => (
         y2="49.2234974%"
         id="linearGradient-8"
       >
-        <stop stop-color="#AF6A38" stop-opacity="0" offset="0%"></stop>
-        <stop stop-color="#AF6A38" offset="8.6%"></stop>
-        <stop stop-color="#B87542" offset="19.77%"></stop>
-        <stop stop-color="#D59C66" offset="58.28%"></stop>
-        <stop stop-color="#E4AF76" offset="77.71%"></stop>
-        <stop stop-color="#E4AF76" stop-opacity="0" offset="92.39%"></stop>
+        <stop stopColor="#AF6A38" stopOpacity="0" offset="0%"></stop>
+        <stop stopColor="#AF6A38" offset="8.6%"></stop>
+        <stop stopColor="#B87542" offset="19.77%"></stop>
+        <stop stopColor="#D59C66" offset="58.28%"></stop>
+        <stop stopColor="#E4AF76" offset="77.71%"></stop>
+        <stop stopColor="#E4AF76" stopOpacity="0" offset="92.39%"></stop>
       </linearGradient>
       <linearGradient
         x1="8.2111437%"
@@ -578,11 +578,11 @@ export const Parcel = (svgprops?: svgProps) => (
         y2="50.006371%"
         id="linearGradient-9"
       >
-        <stop stop-color="#743F1A" stop-opacity="0" offset="0%"></stop>
-        <stop stop-color="#743F1A" stop-opacity="0.8872" offset="49.29%"></stop>
-        <stop stop-color="#743F1A" stop-opacity="0.9" offset="50%"></stop>
-        <stop stop-color="#743F1A" stop-opacity="0.8466" offset="52.97%"></stop>
-        <stop stop-color="#743F1A" stop-opacity="0" offset="100%"></stop>
+        <stop stopColor="#743F1A" stopOpacity="0" offset="0%"></stop>
+        <stop stopColor="#743F1A" stopOpacity="0.8872" offset="49.29%"></stop>
+        <stop stopColor="#743F1A" stopOpacity="0.9" offset="50%"></stop>
+        <stop stopColor="#743F1A" stopOpacity="0.8466" offset="52.97%"></stop>
+        <stop stopColor="#743F1A" stopOpacity="0" offset="100%"></stop>
       </linearGradient>
       <linearGradient
         x1="49.9010615%"
@@ -591,9 +591,9 @@ export const Parcel = (svgprops?: svgProps) => (
         y2="49.9936958%"
         id="linearGradient-10"
       >
-        <stop stop-color="#322214" offset="0%"></stop>
-        <stop stop-color="#322314" stop-opacity="0.9891" offset="23.97%"></stop>
-        <stop stop-color="#322214" stop-opacity="0" offset="100%"></stop>
+        <stop stopColor="#322214" offset="0%"></stop>
+        <stop stopColor="#322314" stopOpacity="0.9891" offset="23.97%"></stop>
+        <stop stopColor="#322214" stopOpacity="0" offset="100%"></stop>
       </linearGradient>
       <linearGradient
         x1="51.3801612%"
@@ -602,9 +602,9 @@ export const Parcel = (svgprops?: svgProps) => (
         y2="51.5684302%"
         id="linearGradient-11"
       >
-        <stop stop-color="#C69866" offset="4.76%"></stop>
-        <stop stop-color="#BA8C5E" offset="41.56%"></stop>
-        <stop stop-color="#B5875B" offset="81.35%"></stop>
+        <stop stopColor="#C69866" offset="4.76%"></stop>
+        <stop stopColor="#BA8C5E" offset="41.56%"></stop>
+        <stop stopColor="#B5875B" offset="81.35%"></stop>
       </linearGradient>
       <linearGradient
         x1="63.0385807%"
@@ -613,11 +613,11 @@ export const Parcel = (svgprops?: svgProps) => (
         y2="8.90684578%"
         id="linearGradient-12"
       >
-        <stop stop-color="#845F35" offset="0%"></stop>
-        <stop stop-color="#91673C" offset="43.11%"></stop>
-        <stop stop-color="#976A40" offset="44.07%"></stop>
-        <stop stop-color="#986B40" offset="87.37%"></stop>
-        <stop stop-color="#AB8157" offset="100%"></stop>
+        <stop stopColor="#845F35" offset="0%"></stop>
+        <stop stopColor="#91673C" offset="43.11%"></stop>
+        <stop stopColor="#976A40" offset="44.07%"></stop>
+        <stop stopColor="#986B40" offset="87.37%"></stop>
+        <stop stopColor="#AB8157" offset="100%"></stop>
       </linearGradient>
       <linearGradient
         x1="49.9985955%"
@@ -626,8 +626,8 @@ export const Parcel = (svgprops?: svgProps) => (
         y2="50.1142021%"
         id="linearGradient-13"
       >
-        <stop stop-color="#322214" stop-opacity="0" offset="0%"></stop>
-        <stop stop-color="#322214" offset="100%"></stop>
+        <stop stopColor="#322214" stopOpacity="0" offset="0%"></stop>
+        <stop stopColor="#322214" offset="100%"></stop>
       </linearGradient>
       <linearGradient
         x1="45.656315%"
@@ -636,11 +636,11 @@ export const Parcel = (svgprops?: svgProps) => (
         y2="33.5379615%"
         id="linearGradient-14"
       >
-        <stop stop-color="#A9794B" offset="0%"></stop>
-        <stop stop-color="#AE7F53" offset="38.57%"></stop>
-        <stop stop-color="#AC7D50" offset="45.57%"></stop>
-        <stop stop-color="#A9794B" offset="62.36%"></stop>
-        <stop stop-color="#B2875D" offset="100%"></stop>
+        <stop stopColor="#A9794B" offset="0%"></stop>
+        <stop stopColor="#AE7F53" offset="38.57%"></stop>
+        <stop stopColor="#AC7D50" offset="45.57%"></stop>
+        <stop stopColor="#A9794B" offset="62.36%"></stop>
+        <stop stopColor="#B2875D" offset="100%"></stop>
       </linearGradient>
     </defs>
     <g>
@@ -843,7 +843,7 @@ export const Stimulus = (svgprops?: svgProps) => (
       <path
         d="M220.013714,143.189333 L220.013714,143.335619 L256,143.335619 L256,188.440381 L203.288381,188.440381 C199.143619,188.440381 192.828952,186.709333 189.293714,184.600381 L176.64,177.16419 C173.104762,175.055238 167.228952,175.055238 163.693714,177.16419 L147.273143,186.782476 C143.737905,188.806095 143.737905,192.26819 147.273143,194.364952 L181.76,214.588952 C185.295238,216.697905 191.634286,218.416762 195.766857,218.416762 L256,218.416762 L256,248.478476 C256,252.623238 252.611048,256 248.466286,256 L7.53371429,256 C3.38048727,255.993312 0.0134137829,252.631687 0,248.478476 L0,218.416762 L60.2453333,218.416762 C65.1394573,218.214207 69.9240981,216.905516 74.24,214.588952 L189.293714,147.017143 C192.828952,144.920381 199.15581,143.189333 203.288381,143.189333 L220.013714,143.189333 L220.013714,143.189333 Z M220.013714,69.4247619 L256,69.4247619 L256,114.95619 L195.754667,114.95619 C190.856997,115.165808 186.071261,116.487304 181.76,118.820571 L66.7062857,187.050667 C62.3950244,189.383934 57.6092889,190.70543 52.711619,190.915048 L0,190.915048 L0,145.383619 L60.2453333,145.383619 C65.1430032,145.174002 69.9287387,143.852505 74.24,141.519238 L189.293714,73.2891429 C193.604976,70.9558758 198.390711,69.6343791 203.288381,69.4247619 L220.013714,69.4247619 L220.013714,69.4247619 Z M248.466286,8.39117136e-16 C252.611048,8.39117136e-16 256,3.38895238 256,7.3752381 L256,37.4857143 L195.754667,37.4857143 C190.860543,37.688269 186.075902,38.99696 181.76,41.3135238 L66.7062857,108.982857 C63.1710476,111.09181 56.8441905,112.822857 52.711619,112.822857 L0,112.822857 L0,67.6571429 L52.711619,67.6571429 C56.856381,67.6571429 63.1710476,69.3881905 66.7062857,71.4971429 L79.36,78.9455238 C82.8952381,81.0544762 88.7710476,81.0544762 92.3062857,78.9455238 L108.726857,69.3150476 C112.262095,67.2792381 112.262095,63.8293333 108.726857,61.7081905 L74.24,41.472 C69.9206518,39.1513936 65.1320511,37.8385919 60.2331429,37.632 L0,37.632 L0,7.52152381 C0.0200615619,3.37108554 3.38324897,0.0133401824 7.53371429,0 L248.466286,0 L248.466286,8.39117136e-16 Z"
         fill="#000000"
-        fill-rule="nonzero"
+        fillRule="nonzero"
       ></path>
     </g>
   </svg>
@@ -868,8 +868,8 @@ export const Vite = (svgprops?: svgProps) => (
         gradientUnits="userSpaceOnUse"
         gradientTransform="matrix(.07142 0 0 .07142 1.3398 1.8944)"
       >
-        <stop stop-color="#41D1FF" id="stop38" />
-        <stop offset="1" stop-color="#BD34FE" id="stop40" />
+        <stop stopColor="#41D1FF" id="stop38" />
+        <stop offset="1" stopColor="#BD34FE" id="stop40" />
       </linearGradient>
       <linearGradient
         id="paint1_linear"
@@ -880,9 +880,9 @@ export const Vite = (svgprops?: svgProps) => (
         gradientUnits="userSpaceOnUse"
         gradientTransform="matrix(.07142 0 0 .07142 1.3398 1.8944)"
       >
-        <stop stop-color="#FFEA83" id="stop43" />
-        <stop offset=".0833" stop-color="#FFDD35" id="stop45" />
-        <stop offset="1" stop-color="#FFA800" id="stop47" />
+        <stop stopColor="#FFEA83" id="stop43" />
+        <stop offset=".0833" stopColor="#FFDD35" id="stop45" />
+        <stop offset="1" stopColor="#FFA800" id="stop47" />
       </linearGradient>
     </defs>
   </svg>
@@ -1039,7 +1039,7 @@ export const Airtable = (svgprops?: svgProps) => (
       ></path>
       <path
         d="M111.422771,117.65355 L79.742409,132.949912 L2.04568588,67.4384994 C2.53454463,66.9481944 3.08848814,66.5446689 3.66412655,66.2250305 C5.26231864,65.2661153 7.54173107,65.0101153 9.47981017,65.7766689 L110.890522,105.957098 C116.045234,108.002206 116.450206,115.225166 111.422771,117.65355"
-        fill-opacity="0.25"
+        fillOpacity="0.25"
         fill="#000000"
       ></path>
     </g>
@@ -1055,8 +1055,8 @@ export const Amplify = (svgprops?: svgProps) => (
         y2="77.8281683%"
         id="Amplify-linearGradient-1"
       >
-        <stop stop-color="#FF9900" offset="0%"></stop>
-        <stop stop-color="#FFC300" offset="100%"></stop>
+        <stop stopColor="#FF9900" offset="0%"></stop>
+        <stop stopColor="#FFC300" offset="100%"></stop>
       </linearGradient>
     </defs>
     <g>
@@ -1115,12 +1115,12 @@ export const Cypress = (svgprops?: svgProps) => (
 )
 export const DaisyUI = (svgprops?: svgProps) => (
   <svg {...svgprops} viewBox="0 0 285 80">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
       <g
         transform="translate(2.300000, 2.250000)"
-        fill-rule="nonzero"
+        fillRule="nonzero"
         stroke="#FFFFFF"
-        stroke-width="2"
+        strokeWidth="2"
       >
         <path
           d="M29.9,21.4409465 L29.9,2.6 L45.25,2.6 L45.25,60.25 L29.9,60.25 L29.9,56.6501566 C28.7994226,57.6995402 27.5641168,58.5549307 26.1963156,59.2135017 C24.0312864,60.2559231 21.5956181,60.775 18.9,60.775 C14.9705242,60.775 11.4891782,59.8519158 8.47673697,58.0021712 C5.46419466,56.1523645 3.12386419,53.5475899 1.4666665,50.2068898 C-0.179861283,46.8876989 -1,43.073403 -1,38.775 C-1,34.5259087 -0.192118586,30.7731692 1.43057281,27.5277864 C3.06360471,24.2617226 5.36749939,21.719494 8.33102187,19.9202125 C11.2927879,18.1219974 14.7224838,17.225 18.6,17.225 C21.3459093,17.225 23.8317236,17.756725 26.0466419,18.8241555 C27.4681755,19.5092319 28.7533846,20.3822283 29.9,21.4409465 Z M22.2,48.275 C24.5116794,48.275 26.3323022,47.462222 27.7393134,45.8133807 C29.1758003,44.1299976 29.9,41.9234516 29.9,39.15 C29.9,36.3275056 29.1760347,34.110362 27.7436368,32.4541519 C26.33702,30.8277513 24.5145577,30.025 22.2,30.025 C19.8862146,30.025 18.0506378,30.8396051 16.6181891,32.4924305 C15.1596827,34.1753225 14.425,36.3793706 14.425,39.15 C14.425,41.9206294 15.1596827,44.1246775 16.6181891,45.8075695 C18.0506378,47.4603949 19.8862146,48.275 22.2,48.275 Z M75.7541168,33.875 C75.6460871,32.4974505 75.1186903,31.4633764 74.1664184,30.7087459 C73.0397273,29.8158963 71.3425335,29.35 69.05,29.35 C67.4405848,29.35 65.6107258,29.613117 63.5630669,30.1430993 C61.5044636,30.6759143 59.429819,31.4523894 57.3388353,32.4735675 L56.3783067,32.9426629 L51.9356232,22.0626216 L52.8111971,21.6646335 C56.1672719,20.139145 59.3897865,19.0055331 62.479431,18.2650398 C65.5816334,17.5215367 68.797348,17.15 72.125,17.15 C77.9416263,17.15 82.516157,18.5039559 85.8139632,21.2432627 C89.1497206,24.0140934 90.8469056,27.9068432 90.9,32.85 L90.9,60.25 L75.775,60.25 L75.775,57.1821882 C72.9724518,59.6291675 69.2137168,60.85 64.55,60.85 C60.010008,60.85 56.3766577,59.6031307 53.7028245,57.0913481 C51.0198655,54.5709926 49.675,51.2427901 49.675,47.175 C49.675,43.0315099 51.1415497,39.7420526 54.0610299,37.3955546 C56.9314228,35.0885098 60.9830927,33.9271191 66.2,33.875 L75.7541168,33.875 Z M75.775,45.3924819 L75.775,43 L68.825,43 C65.5744098,43 64.2,44.026226 64.2,46.2 C64.2,47.3132534 64.5641957,48.1443666 65.3084422,48.7741137 C66.0870614,49.4329453 67.1961478,49.775 68.675,49.775 C70.486929,49.775 72.0472831,49.3403299 73.3800116,48.4740564 C74.6371089,47.6569432 75.422684,46.6387871 75.775,45.3924819 Z M105.425,15.25 C103.112366,15.25 101.166284,14.4715674 99.6488159,12.9254677 C98.1360155,11.3841239 97.375,9.43132945 97.375,7.125 C97.375,4.76774883 98.1365358,2.79925064 99.6553932,1.28039322 C101.172864,-0.237077767 103.116157,-1 105.425,-1 C107.733843,-1 109.677136,-0.237077767 111.194607,1.28039322 C112.713464,2.79925064 113.475,4.76774883 113.475,7.125 C113.475,9.43132945 112.713985,11.3841239 111.201184,12.9254677 C109.683716,14.4715674 107.737634,15.25 105.425,15.25 Z M113.175,17.675 L113.175,60.25 L97.9,60.25 L97.9,17.675 L113.175,17.675 Z M136.775,60.85 C133.225881,60.85 129.826205,60.3477751 126.579316,59.3427859 C123.316299,58.3328043 120.408658,56.8400424 117.862176,54.8652198 L117.220324,54.3674569 L122.287275,43.962111 L123.246064,44.6290948 C125.471791,46.1774261 127.802496,47.3729692 130.239932,48.2176252 C132.663802,49.0575803 134.941721,49.475 137.075,49.475 C138.219754,49.475 139.096121,49.2955032 139.706667,48.9606876 C140.170896,48.7061108 140.35,48.4230104 140.35,48 C140.35,47.4119143 140.026344,46.9659888 139.22329,46.5733844 C138.167124,46.0570366 136.457498,45.4750363 134.089195,44.8332878 C131.200791,43.971834 128.81155,43.1203491 126.917717,42.2758019 C124.925925,41.3875705 123.190691,40.0558792 121.719279,38.2901844 C120.185116,36.449189 119.425,34.0720993 119.425,31.2 C119.425,26.7903155 121.118897,23.2795772 124.475,20.7625 C127.760171,18.2986214 131.970482,17.075 137.075,17.075 C140.115871,17.075 143.118542,17.487384 146.080576,18.3116022 C149.043952,19.1361939 151.841025,20.3478292 154.469415,21.9454781 L155.267063,22.4303225 L149.876414,32.8522427 L148.985993,32.3858315 C143.866367,29.7041229 139.709838,28.375 136.55,28.375 C135.570038,28.375 134.821619,28.5469341 134.293978,28.8672875 C133.896098,29.1088575 133.725,29.4205005 133.725,29.925 C133.725,30.4041076 134.034049,30.8114906 134.822214,31.2055728 C135.850108,31.71952 137.545201,32.3006946 139.90627,32.9403715 C142.841883,33.8008095 145.290863,34.6509736 147.256419,35.493355 C149.327586,36.3809978 151.117477,37.7267805 152.617282,39.5211899 C154.177189,41.3875069 154.95,43.8025427 154.95,46.725 C154.95,51.1400038 153.21369,54.6536386 149.778313,57.1693087 C146.418624,59.6295535 142.074884,60.85 136.775,60.85 Z M174.245376,58.2317371 L157.039488,17.675 L172.973561,17.675 L181.895776,42.0208908 L189.849689,17.675 L205.31414,17.675 L204.781474,19.038808 L187.375935,63.6026839 C185.757683,67.5700099 183.568342,70.5374905 180.799518,72.4809918 C178.021814,74.4307262 174.596162,75.4 170.55,75.4 C168.191007,75.4 165.980522,75.0447434 163.922889,74.3324861 C161.864533,73.6199781 159.867604,72.5032741 157.933118,70.9870559 L157.237482,70.4418277 L163.847452,59.4549866 L164.744136,60.2100888 C165.620072,60.9477192 166.434475,61.4680322 167.18075,61.7753219 C167.908931,62.0751613 168.67953,62.225 169.5,62.225 C171.319186,62.225 172.603628,61.4148133 173.487783,59.6886473 L174.245376,58.2317371 Z"
@@ -1343,8 +1343,8 @@ export const SemanticUI = (svgprops?: svgProps) => (
 export const Stitches = (svgprops?: svgProps) => (
   <svg {...svgprops} viewBox="0 0 15 15" fill="none">
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M1.84998 7.49998C1.84998 7.21321 1.87134 6.93143 1.91256 6.65615L9.56374 2.23875C9.86311 2.35627 10.15 2.49861 10.4219 2.66322L3.77065 6.50332C3.73669 6.52183 3.70482 6.5449 3.67602 6.57238C3.5911 6.65308 3.54245 6.76286 3.53682 6.87658C3.53359 6.9418 3.54451 7.00831 3.57086 7.07137C3.58927 7.1157 3.6149 7.15742 3.64744 7.19458C3.67306 7.22396 3.702 7.24941 3.73337 7.27069L7.32533 9.83813L3.87232 11.8317C2.63604 10.7953 1.84998 9.23944 1.84998 7.49998ZM8.36843 10.2751C8.37682 10.2706 8.38509 10.2659 8.39322 10.2608L9.84091 9.42499C9.84706 9.42163 9.85314 9.41812 9.85915 9.41446L11.3101 8.57677C11.3655 8.54649 11.4154 8.504 11.4554 8.44995C11.6034 8.25031 11.5616 7.96848 11.362 7.82046L7.82779 5.20017L11.2161 3.24393C12.4013 4.27963 13.15 5.80237 13.15 7.49998C13.15 7.83546 13.1207 8.16411 13.0647 8.48353L5.56875 12.8113C5.26138 12.6995 4.96646 12.5618 4.68662 12.4008L8.36843 10.2751ZM8.18149 9.34383L4.81659 6.93868L5.50918 6.53881L8.80604 8.98324L8.18149 9.34383ZM6.35875 6.04832L6.97822 5.69067L10.2751 8.13506L9.6556 8.49275L6.35875 6.04832ZM8.3318 1.91078L2.24263 5.42636C3.06941 3.33188 5.11164 1.84998 7.49998 1.84998C7.78258 1.84998 8.06033 1.87072 8.3318 1.91078ZM6.84684 13.1126C7.06114 13.1373 7.27908 13.15 7.49998 13.15C9.8246 13.15 11.8213 11.7461 12.6886 9.7399L6.84684 13.1126ZM7.49998 0.849976C3.82728 0.849976 0.849976 3.82728 0.849976 7.49998C0.849976 11.1727 3.82728 14.15 7.49998 14.15C11.1727 14.15 14.15 11.1727 14.15 7.49998C14.15 3.82728 11.1727 0.849976 7.49998 0.849976Z"
       fill="currentColor"
     />
@@ -1410,8 +1410,8 @@ export const Supabase = (svgprops?: svgProps) => (
         y2="359"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#23915F" />
-        <stop offset="1" stop-color="#3ECF8E" stop-opacity="0" />
+        <stop stopColor="#23915F" />
+        <stop offset="1" stopColor="#3ECF8E" stopOpacity="0" />
       </linearGradient>
     </defs>
   </svg>
@@ -1430,7 +1430,7 @@ export const Vitest = (svgprops?: svgProps) => (
     <path
       d="M82.9572 153.343C83.9184 153.344 84.8703 153.156 85.7583 152.788C86.6463 152.42 87.4528 151.88 88.1316 151.2L122.278 117.056C123.644 115.683 124.41 113.824 124.407 111.887C124.405 109.95 123.634 108.092 122.264 106.723C120.894 105.353 119.037 104.582 117.1 104.579C115.163 104.577 113.304 105.342 111.93 106.708L82.9572 135.678L19.8389 72.5626C18.4629 71.2088 16.6077 70.4536 14.6775 70.4615C12.7472 70.4693 10.8982 71.2396 9.53331 72.6045C8.16839 73.9695 7.39811 75.8184 7.39025 77.7487C7.38239 79.679 8.13759 81.5342 9.49135 82.9101L77.784 151.2C78.4627 151.881 79.2691 152.42 80.1568 152.788C81.0446 153.156 81.9963 153.344 82.9572 153.343Z"
       fill="#729B1B"
-      fill-opacity="0.5"
+      fillOpacity="0.5"
     />
   </svg>
 )
@@ -1440,30 +1440,30 @@ export const ANT = (svgprops?: svgProps ) => (
     viewBox="0 0 200 200">
     <defs>
         <linearGradient x1="62.1023273%" y1="0%" x2="108.19718%" y2="37.8635764%" id="linearGradient-1">
-            <stop stop-color="#4285EB" offset="0%"></stop>
-            <stop stop-color="#2EC7FF" offset="100%"></stop>
+            <stop stopColor="#4285EB" offset="0%"></stop>
+            <stop stopColor="#2EC7FF" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="69.644116%" y1="0%" x2="54.0428975%" y2="108.456714%" id="linearGradient-2">
-            <stop stop-color="#29CDFF" offset="0%"></stop>
-            <stop stop-color="#148EFF" offset="37.8600687%"></stop>
-            <stop stop-color="#0A60FF" offset="100%"></stop>
+            <stop stopColor="#29CDFF" offset="0%"></stop>
+            <stop stopColor="#148EFF" offset="37.8600687%"></stop>
+            <stop stopColor="#0A60FF" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="69.6908165%" y1="-12.9743587%" x2="16.7228981%" y2="117.391248%" id="linearGradient-3">
-            <stop stop-color="#FA816E" offset="0%"></stop>
-            <stop stop-color="#F74A5C" offset="41.472606%"></stop>
-            <stop stop-color="#F51D2C" offset="100%"></stop>
+            <stop stopColor="#FA816E" offset="0%"></stop>
+            <stop stopColor="#F74A5C" offset="41.472606%"></stop>
+            <stop stopColor="#F51D2C" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="68.1279872%" y1="-35.6905737%" x2="30.4400914%" y2="114.942679%" id="linearGradient-4">
-            <stop stop-color="#FA8E7D" offset="0%"></stop>
-            <stop stop-color="#F74A5C" offset="51.2635191%"></stop>
-            <stop stop-color="#F51D2C" offset="100%"></stop>
+            <stop stopColor="#FA8E7D" offset="0%"></stop>
+            <stop stopColor="#F74A5C" offset="51.2635191%"></stop>
+            <stop stopColor="#F51D2C" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         <g id="logo" transform="translate(-20.000000, -20.000000)">
             <g id="Group-28-Copy-5" transform="translate(20.000000, 20.000000)">
                 <g id="Group-27-Copy-3">
-                    <g id="Group-25" fill-rule="nonzero">
+                    <g id="Group-25" fillRule="nonzero">
                         <g id="2">
                             <path d="M91.5880863,4.17652823 L4.17996544,91.5127728 C-0.519240605,96.2081146 -0.519240605,103.791885 4.17996544,108.487227 L91.5880863,195.823472 C96.2872923,200.518814 103.877304,200.518814 108.57651,195.823472 L145.225487,159.204632 C149.433969,154.999611 149.433969,148.181924 145.225487,143.976903 C141.017005,139.771881 134.193707,139.771881 129.985225,143.976903 L102.20193,171.737352 C101.032305,172.906015 99.2571609,172.906015 98.0875359,171.737352 L28.285908,101.993122 C27.1162831,100.824459 27.1162831,99.050775 28.285908,97.8821118 L98.0875359,28.1378823 C99.2571609,26.9692191 101.032305,26.9692191 102.20193,28.1378823 L129.985225,55.8983314 C134.193707,60.1033528 141.017005,60.1033528 145.225487,55.8983314 C149.433969,51.69331 149.433969,44.8756232 145.225487,40.6706018 L108.58055,4.05574592 C103.862049,-0.537986846 96.2692618,-0.500797906 91.5880863,4.17652823 Z" id="Shape" fill="url(#linearGradient-1)"></path>
                             <path d="M91.5880863,4.17652823 L4.17996544,91.5127728 C-0.519240605,96.2081146 -0.519240605,103.791885 4.17996544,108.487227 L91.5880863,195.823472 C96.2872923,200.518814 103.877304,200.518814 108.57651,195.823472 L145.225487,159.204632 C149.433969,154.999611 149.433969,148.181924 145.225487,143.976903 C141.017005,139.771881 134.193707,139.771881 129.985225,143.976903 L102.20193,171.737352 C101.032305,172.906015 99.2571609,172.906015 98.0875359,171.737352 L28.285908,101.993122 C27.1162831,100.824459 27.1162831,99.050775 28.285908,97.8821118 L98.0875359,28.1378823 C100.999864,25.6271836 105.751642,20.541824 112.729652,19.3524487 C117.915585,18.4685261 123.585219,20.4140239 129.738554,25.1889424 C125.624663,21.0784292 118.571995,14.0340304 108.58055,4.05574592 C103.862049,-0.537986846 96.2692618,-0.500797906 91.5880863,4.17652823 Z" id="Shape" fill="url(#linearGradient-2)"></path>
