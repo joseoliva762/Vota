@@ -1,8 +1,7 @@
 import { LoginButton } from 'components/LoginButton';
 import { LoadingIcon } from 'components/LoadingIcon';
 import { NavUserProfile } from 'components/NavUserProfile';
-import { useSession, signOut } from 'next-auth/react';
-import { Session } from 'next-auth';
+import { useSession } from 'next-auth/react';
 
 export function NavUserOutlet () {
     const { data: session, status } = useSession();

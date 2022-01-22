@@ -19,7 +19,7 @@ const PillLogo = ({image, title, svg}: PillProps) => {
   
 export const Pill = ({image, title, svg}: PillProps) => (
     <button className='pointer group outline-none'>
-        <div className='flex flex-row items-center gap-2 px-7 py-3 border-2 border-gray-200 rounded-xl hover:bg-gray-200'>
+        <div className='flex flex-row items-center gap-2 px-7 py-3 border  border-gray-200 rounded-xl hover:bg-gray-200'>
         <figure className='flex object-contain w-10 h-10'>
             <PillLogo image={image} title={title} svg={svg} />
         </figure>
