@@ -4,7 +4,7 @@ export default function Footer() {
     const { DEVELOPED_BY } = useTranslations();
     
     return (
-        <footer className="flex flex-col items-center justify-center w-full">
+        <footer className="flex flex-col items-center justify-center w-full gap-2">
             <img src="images/livcode.jpg" alt="Livcodes" className='w-20 rounded-full border-2 border-black' />
             <div className="px-8 pt-0 pb-12 w-full flex justify-center items-center gap-1 text-lg text-black opacity-80 font-semibold cursor-default">
                 {DEVELOPED_BY}
