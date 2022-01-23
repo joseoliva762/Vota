@@ -18,7 +18,7 @@ export default {
     CATALOG_TITLE: 'Mejor catálogo de componentes',
     HOSTING_TITLE: 'Mejor sitio para hosting de tu proyecto web',
     LOGIN_IN: 'Iniciar sesión',
-    DEVELOPED_BY: 'Desarrollado Por',
-    SUBMIT_SUGGESTION: 'Enviar Sugerencia',
+    DEVELOPED_BY: 'Desarrollado por',
+    SUBMIT_SUGGESTION: 'Enviar sugerencia',
     LOGOUT: 'Cerrar sesión'
 };
