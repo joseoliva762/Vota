@@ -1,5 +1,5 @@
 import { signIn } from 'next-auth/react'
-import { useTranslations } from 'hooks/useTranslation';
+import { useTranslations } from 'hooks/useTranslations';
 
 export function LoginButton () {
     const { LOGIN_IN } = useTranslations();

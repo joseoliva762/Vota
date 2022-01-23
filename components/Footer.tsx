@@ -1,8 +1,8 @@
-// import { useTranslations } from 'hooks/useTranslation';
+import { useTranslations } from 'hooks/useTranslations';
 
 export default function Footer() {
-    // const { DEVELOPED_BY } = useTranslations();
-    const DEVELOPED_BY = 'Desarrollado por'
+    const { DEVELOPED_BY } = useTranslations();
+    
     return (
         <footer className="flex flex-col items-center justify-center w-full">
             <img src="images/livcode.jpg" alt="Livcodes" className='w-20 rounded-full border-2 border-black' />

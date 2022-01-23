@@ -9,7 +9,7 @@ import SectionTitle from 'components/SectionTitle';
 import VotingBox from 'components/VotingBox';
 import { Pill } from 'components/Pill';
 import * as SVG from "components/SVGIcons";
-import { useTranslations } from 'hooks/useTranslation';
+import { useTranslations } from 'hooks/useTranslations';
 import { Code } from 'components/Code';
 import MainSubtitle from 'components/MainSubtitle';
 
