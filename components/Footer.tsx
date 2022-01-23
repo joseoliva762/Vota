@@ -1,8 +1,7 @@
-import Image from 'next/image'
 import { useTranslations } from 'hooks/useTranslation'
 
 export default function Footer() {
-  const i18n = useTranslations()
+  const i18n = useTranslations();
 
   return (
     <footer className="flex flex-col items-center justify-center w-full">
